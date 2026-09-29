@@ -238,6 +238,15 @@ HOME = """
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G0TC7KF319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G0TC7KF319');
+</script>
 <meta charset="UTF-8">
 <title>Fortnite Pro Settings</title>
 
@@ -567,7 +576,15 @@ PLAYER = """
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G0TC7KF319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-G0TC7KF319');
+</script>
 <meta charset="UTF-8">
 <title>{{name}} Settings</title>
 
