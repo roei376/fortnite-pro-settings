@@ -239,7 +239,7 @@ HOME = """
 <html>
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7122281075551489"
-     crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0TC7KF319"></script>
 <script>
@@ -825,6 +825,9 @@ def player(name):
         p=players[name]
     )
 
+@app.route("/ads.txt")
+def ads_txt():
+    return "google.com, pub-7122281075551489, DIRECT, f08c47fec0942fa0\n", 200, {"Content-Type": "text/plain"}
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True) 
